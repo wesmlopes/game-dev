@@ -15,7 +15,7 @@ function setup() {
     cenario = new Cenario(imagemCenario, 3);
     personagem = new Personagem(imagemPersonagem);
     frameRate(46);
-    somJogo.play(AudioPlayMode); //executando a musica várias vezes
+    somJogo.play(); //executando a musica várias vezes
 }
 
 function draw() {
