@@ -8,6 +8,7 @@ var somDoJogo;
 var somDoPulo;
 var jogo;
 var telaInicial;
+var imagemVida;
 var botaoGerenciador;
 var personagem;
 var inimigo;
@@ -17,9 +18,11 @@ var imagemGameOver;
 var imagemTelaInicial;
 var fonteTelaInicial;
 var pontuacao;
+var vida;
+var fita;
 var inimigoAtual = 0;
 
-var cenaAtual = 'telaInicial';
+var cenaAtual = 'jogo';
 var cenas;
 
 const matrizInimigo = [
